@@ -99,7 +99,6 @@ ul{
 	padding: 0 25px;
 }
 .regreso > li{
-	color: blue;
 	margin: 35px 0 35px 46px;
 }
 .regreso > li:nth-child(3){
@@ -157,4 +156,11 @@ div{
 .contacto{
 	font-size: 13px;
 	margin: 25px 0;
+}
+.unico{
+	color:black;
+}
+a{
+	color:#3E7FBB;
+	text-decoration: none;
 }
