@@ -1,0 +1,160 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+}
+body{
+	background-color: #D5D4D4;
+	color:  #333333;
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+}
+.estructura{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.columna1{
+	width: 70%;
+	}
+.columna2{
+	width: 30%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 16px;
+}
+.resumen{
+	width: 70%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+}
+.double{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.contacto{
+	display: flex;
+	flex-wrap: wrap;
+}
+.opcion{
+	flex:1;
+}
+.tres{
+	width: 25%;
+}
+.dos{
+	width: 75%;
+	font-size: 14px;
+	line-height: 1.5;
+	padding-left: 10px;
+
+}
+.descripcion1{
+	width: 60%;
+}
+.descripcion{
+	width: 50%;
+}
+
+.foto1{
+	width: 40%;	
+}
+
+.foto{
+	width: 50%;
+}
+.principal{
+	width: 100%;
+	display:flex;
+	flex-wrap: wrap;
+	background-color: #333333;
+}
+.logo{
+	width: 10%;
+	height:45px;
+	margin:0;
+}
+.barra{
+	width: 65%;
+	height:45px;
+	margin:0;
+}
+li{
+	display: inline-block;
+	color: white;
+	margin-right: 11px;
+}
+.menu{
+	background-color: #333333;
+	margin: 0;
+	display: block;
+}
+ul{
+	padding: 8px;
+}
+.container{
+	margin: 0 35px 35px 35px;
+	background-color: white;
+	padding: 0 25px;
+}
+.regreso > li{
+	color: blue;
+	margin: 35px 0 35px 46px;
+}
+.regreso > li:nth-child(3){
+	background-color: skyblue;
+	padding: 10px 14px;
+}
+h1{
+	font-size: 40px;
+	margin-bottom: 25px;
+}
+h2{
+	font-size: 36px;
+	margin: 25px 0;
+}
+h3{
+	font-size: 30px;
+}
+.foto > img {
+	width: 100%;
+}
+.fixed{
+	background-color: #3A539B;
+	width: 297px;
+	height: 78px;
+	color: white;
+	padding: 5px;
+	position: fixed;
+	right: 10px;
+	bottom: 0px;
+}
+.buscador{
+	background-color: white;
+	height: 35px;
+	width: 230px;
+	margin: 0 auto;
+}
+.fas{
+	color: #DB4B38;
+}
+.fa-search{
+	color: black;
+}
+button{
+	margin-left: -8px;
+}
+div{
+	display: inline-block;
+}
+.lugar{
+	color: gray;
+}
+.arte{
+	color: blue;
+}
+.contacto{
+	font-size: 13px;
+	margin: 25px 0;
+}
